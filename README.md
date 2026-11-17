@@ -225,26 +225,6 @@ an under-trained baseline makes transfer learning look better than it is.
 
 ---
 
-## Repository layout
-
-```
-Pytorch/
-├── README.md                                            ← this file
-├── .gitignore
-├── pneumonia_detection_convnext_efficientnet_ensemble.ipynb   ← the project, with saved outputs
-├── figures/                                             ← plots extracted from the run
-│   ├── roc_comparison.png
-│   ├── confusion_matrices.png
-│   └── training_curves.png
-├── data/                                                ← extracted dataset, git-ignored (1.2 GB)
-└── … other coursework notebooks (unrelated)
-```
-
-This repository also holds other, unrelated coursework notebooks (`NNDL&NLP/`, `Old/`). Only the pneumonia
-notebook and the files listed above belong to this project.
-
----
-
 ## Limitations
 
 - **Single-hospital paediatric data.** The model would not transfer to adult or multi-site radiographs
